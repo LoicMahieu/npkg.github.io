@@ -3,8 +3,6 @@ layout: default
 title: npkg - packages for node-os, powered by npm
 ---
 
-> npm packages designed for [node-os](http://node-os.com/)
-
 ## core packages
 
 unless otherwise noted, packages here should be treated as <span class="label label-default">experimental</span>

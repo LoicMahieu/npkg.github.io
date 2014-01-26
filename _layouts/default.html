@@ -4,19 +4,23 @@
 <title>{{ page.title }}</title>
 <meta name="viewport" content="width=device-width">
 <link rel="stylesheet" href="/css/syntax.css">
+<link rel="stylesheet" href="/css/main.css">
 <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
-
+<div id="wrap">
 <div class="container">
   <div class="page-header">
-    <img src="http://i.imgur.com/UvbOkMs.png" height=100>
+    <h1><a href="/"><img src="http://i.imgur.com/UvbOkMs.png" height=100></a>&nbsp;
+    <small>npm packages designed for <a href="http://node-os.com">node-os</a></small></h1>
   </div>
+  {% include navbar.html %}
   {{ content }}
 </div>
+<div id="push"></div>
+<div style="margin-top:180px;">&nbsp;</div>
+</div>
 
-<footer style="background-color: #73042D; margin-top: 180px;">
-  <div class="row">
-    &nbsp;
-  </div>
+<footer style="background-color: #73042D;">
 </footer>
 
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
