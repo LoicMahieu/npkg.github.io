@@ -7,6 +7,8 @@ title: npkg - packages for node-os, powered by npm
 
 ## current packages
 
+unless otherwise noted, packages here should be treated as <span class="label label-default">experimental</span>
+
 ### command-line
 
 - [bin-npkg](https://github.com/NodeOS/node-npkg) &mdash; the official node-os package/service binary
@@ -32,9 +34,9 @@ title: npkg - packages for node-os, powered by npm
 - [lib-supervise](https://github.com/jacobgroundwater/node-lib-supervise) &mdash; child-process supervision library
 - [lib-config](https://github.com/jacobgroundwater/node-lib-config) &mdash; hierarchical config file loading
 - [lib-cmdparse](https://github.com/jacobgroundwater/node-lib-cmdparse) &mdash; parse shell commands
-- [lib-pathsearch](https://github.com/jacobgroundwater/node-lib-pathsearch) &mdash; return all the files available in a series of paths
-- [lib-pathcomplete](https://github.com/jacobgroundwater/node-lib-pathcomplete) &mdash; help auto-complete file paths
-- [node-pathchop](https://github.com/jacobgroundwater/node-pathchop) &mdash; better dirname/basename
+- [lib-pathsearch](https://github.com/jacobgroundwater/node-lib-pathsearch) <span class="label label-primary">stable</span> &mdash; return all the files available in a series of paths
+- [lib-pathcomplete](https://github.com/jacobgroundwater/node-lib-pathcomplete) <span class="label label-primary">stable</span> &mdash; help auto-complete file paths
+- [node-pathchop](https://github.com/jacobgroundwater/node-pathchop) <span class="label label-primary">stable</span> &mdash; better dirname/basename
 
 ### sources
 
