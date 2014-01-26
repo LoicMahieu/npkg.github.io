@@ -5,7 +5,7 @@ title: npkg - packages for node-os, powered by npm
 
 > npm packages designed for [node-os](http://node-os.com/)
 
-## current packages
+## core packages
 
 unless otherwise noted, packages here should be treated as <span class="label label-default">experimental</span>
 
@@ -45,3 +45,11 @@ unless otherwise noted, packages here should be treated as <span class="label la
 - [src-ioctl](https://github.com/jacobgroundwater/node-src-ioctl) &mdash; ioctl interface
 - [src-errno](https://github.com/jacobgroundwater/node-src-errno) &mdash; errno interface
 - [src-reboot](https://github.com/jacobgroundwater/node-src-reboot) &mdash; reboot and shutdown syscalls
+
+## community packages
+
+> cool npm packages to try on node-os
+
+- [st](https://github.com/isaacs/st) &mdash; serve static files
+- [tetris](https://github.com/mafintosh/tetris) &mdash; tetris
+- [hipster](https://github.com/dominictarr/hipster) &mdash; the text editor you've probably never heard of
