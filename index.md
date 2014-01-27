@@ -23,23 +23,24 @@ unless otherwise noted, packages here should be treated as <span class="label la
 - [bin-getty](https://github.com/jacobgroundwater/node-bin-getty) &mdash; getty replacement
 - [findmynode](https://github.com/jacobgroundwater/node-findmynode) &mdash; mDNS service discovery for wssh
 
-install command-line executables with `npkg install` e.g.
+    install command-line executables with `npkg install` e.g.
 
-```bash
-$ npkg install wssh
-```
+    ```bash
+    $ npkg install wssh
+    $ wssh 192.168.2.10
+    ```
 
 ### services
 
 - [svc-init](https://github.com/NodeOS/node-init) &mdash; the official node-os init daemon
 - [wssh](https://github.com/jacobgroundwater/node-wssh) &mdash; websocket powered remote shell server
 
-install and start services with `npkg install` and `npkg start` e.g.
+    install and start services with `npkg install` and `npkg start` e.g.
 
-```bash
-$ npkg install wssh
-$ npkg start wssh
-```
+    ```bash
+    $ npkg install wssh
+    $ npkg start wssh
+    ```
 
 ### libraries
 
@@ -50,11 +51,11 @@ $ npkg start wssh
 - [lib-pathcomplete](https://github.com/jacobgroundwater/node-lib-pathcomplete) <span class="label label-primary">stable</span> &mdash; help auto-complete file paths
 - [node-pathchop](https://github.com/jacobgroundwater/node-pathchop) <span class="label label-primary">stable</span> &mdash; better dirname/basename
 
-libraries are typical node modules, you require them e.g.
+    libraries are typical node modules, you require them e.g.
 
-```javascript
-var supervise = require('lib-supervise');
-```
+    ```javascript
+    var supervise = require('lib-supervise');
+    ```
 
 ### sources
 
@@ -64,11 +65,11 @@ var supervise = require('lib-supervise');
 - [src-errno](https://github.com/jacobgroundwater/node-src-errno) &mdash; errno interface
 - [src-reboot](https://github.com/jacobgroundwater/node-src-reboot) &mdash; reboot and shutdown syscalls
 
-sources are also node modules that must be required e.g.
+    sources are also node modules that must be required e.g.
 
-```javascript
-var mount = require('src-mount');
-```
+    ```javascript
+    var mount = require('src-mount');
+    ```
 
 ## community packages
 
