@@ -77,4 +77,4 @@ unless otherwise noted, packages here should be treated as <span class="label la
 
 - [st](https://github.com/isaacs/st) &mdash; serve static files
 - [tetris](https://github.com/mafintosh/tetris) &mdash; tetris
-- [hipster](https://github.com/dominictarr/hipster) &mdash; the text editor you've probably never heard of
+- [hipster@0.15.0](https://github.com/dominictarr/hipster) &mdash; the text editor you've probably never heard of
