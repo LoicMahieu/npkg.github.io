@@ -9,6 +9,7 @@ unless otherwise noted, packages here should be treated as <span class="label la
 
 ### command-line
 
+> command line modules expose executables placed onto your `PATH`
 
 - [bin-npkg](https://github.com/NodeOS/node-npkg) &mdash; the official node-os package/service binary
 - [bin-nsh](https://github.com/jacobgroundwater/node-bin-nsh) &mdash; simple node shell
@@ -32,6 +33,8 @@ unless otherwise noted, packages here should be treated as <span class="label la
 
 ### services
 
+> services define long-running daemons
+
 - [svc-init](https://github.com/NodeOS/node-init) &mdash; the official node-os init daemon
 - [wssh](https://github.com/jacobgroundwater/node-wssh) &mdash; websocket powered remote shell server
 
@@ -43,6 +46,8 @@ unless otherwise noted, packages here should be treated as <span class="label la
     ```
 
 ### libraries
+
+> libraries are node modules which get required into other module
 
 - [lib-supervise](https://github.com/jacobgroundwater/node-lib-supervise) &mdash; child-process supervision library
 - [lib-config](https://github.com/jacobgroundwater/node-lib-config) &mdash; hierarchical config file loading
@@ -58,6 +63,8 @@ unless otherwise noted, packages here should be treated as <span class="label la
     ```
 
 ### sources
+
+> sources are compiled module, typically c++ code, with a javascript interface
 
 - [src-ifaddrs](https://github.com/jacobgroundwater/node-src-ifaddrs) &mdash; network interface syscalls
 - [src-mount](https://github.com/jacobgroundwater/node-src-mount) &mdash; mount syscalls
